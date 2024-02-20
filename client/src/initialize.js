@@ -1410,7 +1410,7 @@ function initArrow()
 function scoresAJAXRequest()
 {
      //Ruta o absoluta o relativa al fichero que hace la petición (html)
-     const url = "http://localhost:3000/Proyecto/server/routes/getAllClassic.php";
+     const url = "http://localhost:3000/server/routes/getAllClassic.php";
      const request = new XMLHttpRequest();
     let arrayAsociativo = [];
      request.onreadystatechange = function()
