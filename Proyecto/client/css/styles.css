@@ -1,0 +1,44 @@
+#gameScreen {
+    width: 1080px;
+    height: 852px;
+    background-color: black;
+
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+.background {
+    background-color: #212121;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+/* ADD */
+
+
+
+@font-face {
+    font-family: emulogic;
+    src: url("../fonts/emulogic.ttf");
+}
+@font-face {
+    font-family: Autum;
+    src: url(../fonts/Autum.ttf);
+}
+@font-face {
+    font-family: madlad1;
+    src: url(../fonts/madlad1.ttf);
+}
+@font-face {
+    font-family: madlad2;
+    src: url(../fonts/madlad2.ttf);
+}
+@font-face {
+    font-family: minecraft;
+    src: url(../fonts/MinecraftRegular-Bmg3.otf);
+}

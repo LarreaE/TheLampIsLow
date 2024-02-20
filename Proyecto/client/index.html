@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite drawing</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="#">
+
+</head>
+<body class="background">
+
+    
+    <canvas id="gameScreen" width="256" height="208">
+        Your browser does not support the html5 canvas tag
+    </canvas>
+   <audio id="menuMusic1">
+    <source src="./sounds/music/ost/MUSIC_MENU_1.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="menuMusic2">
+    <source src="./sounds/music/ost/MUSIC_MENU_2.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="menuMusic3">
+    <source src="./sounds/music/ost/MUSIC_MENU_3.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="menuMusic4">
+    <source src="./sounds/music/ost/DANCE_HYMN_SOUL.mp3" type="audio/mpeg">
+   </audio>
+
+
+   <audio id="gameMusic">
+    <source src="./sounds/music/ost/MUSIC_GAME.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="gameMusic2">
+    <source src="./sounds/music/ost/BATTLE_B2.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic3">
+    <source src="./sounds/music/ost/BELL_OF_BATTLE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic4">
+    <source src="./sounds/music/ost/BOTANIC_PANIC.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic5">
+    <source src="./sounds/music/ost/FROGS_THEME.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic6">
+    <source src="./sounds/music/ost/HIS_NAME_IS.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic7">
+    <source src="./sounds/music/ost/JINSEINO_GOROUND.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic8">
+    <source src="./sounds/music/ost/LUPIN_III.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic9">
+    <source src="./sounds/music/ost/MEGAMAN_OPENING_STAGE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic10">
+    <source src="./sounds/music/ost/REACH_FOR_THE_SUMMIT.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic11">
+    <source src="./sounds/music/ost/ROMANTIC_VAGRANT.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic12">
+    <source src="./sounds/music/ost/SERPENT_EATING_THE_GROUND.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="gameMusic13">
+    <source src="./sounds/music/ost/SOPHISTICATED_FIGHT.mp3" type="audio/mpeg">
+   </audio>
+
+
+   <audio id="boomBox1">
+    <source src="./sounds/music/boomBox/ACIDJAZZED_EVENING.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox2">
+    <source src="./sounds/music/boomBox/AIR_BOOK.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox3">
+    <source src="./sounds/music/boomBox/AKOGARENO_SUNDOWN.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox4">
+    <source src="./sounds/music/boomBox/AU_REVOIR.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox5">
+    <source src="./sounds/music/boomBox/COLOR_YOUR_NIGHT.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox6">
+    <source src="./sounds/music/boomBox/FLEETING_WORDS.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox7">
+    <source src="./sounds/music/boomBox/FULLMOON_FULLLIFE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox8">
+    <source src="./sounds/music/boomBox/HYRULE_FIELD.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox9">
+    <source src="./sounds/music/boomBox/I_LOVE_YOU_SO.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox10">
+    <source src="./sounds/music/boomBox/PAPER_DOLL.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox11">
+    <source src="./sounds/music/boomBox/PREMIER_AMOUR.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox12">
+    <source src="./sounds/music/boomBox/RHYTHMICAL_BUSTLE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox13">
+    <source src="./sounds/music/boomBox/Y_WILL_KNOW.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox14">
+    <source src="./sounds/music/boomBox/PIZZA_DELUXE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox15">
+    <source src="./sounds/music/boomBox/SCHOOL_DAYS.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox16">
+    <source src="./sounds/music/boomBox/SOPHIAS_SHOP.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox17">
+    <source src="./sounds/music/boomBox/CAPTAIN_AMERICA_THEME.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox18">
+    <source src="./sounds/music/boomBox/CLOCK_TOWER_STAGE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox19">
+    <source src="./sounds/music/boomBox/DOUSE_SHINUN.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox20">
+    <source src="./sounds/music/boomBox/SEPTEMBER.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox21">
+    <source src="./sounds/music/boomBox/TASOGARE.mp3" type="audio/mpeg">
+   </audio>
+   <audio id="boomBox22">
+    <source src="./sounds/music/boomBox/TO_BE_SUGGESTIVE.mp3" type="audio/mpeg">
+   </audio>
+
+   <audio id="fireSound">
+    <source src="./sounds/sfx/SFX_FIRE.wav" type="audio/wav">
+   </audio>
+
+   <audio id="potionSound">
+    <source src="./sounds/sfx/SFX_POTION.wav" type="audio/wav">
+   </audio>
+
+   <audio id="weedSound">
+    <source src="./sounds/sfx/SFX_WEED.wav" type="audio/wav">
+   </audio>
+
+   <audio id="dieSound">
+    <source src="./sounds/sfx/SFX_ENEMYDIE.wav" type="audio/wav">
+   </audio>
+
+   <audio id="firebreathSound">
+    <source src="./sounds/sfx/SFX_FIREBREATH.wav" type="audio/wav">
+   </audio>
+
+   <audio id="jumpSound">
+    <source src="./sounds/sfx/SFX_JUMP.wav" type="audio/wav">
+   </audio>
+   <audio id="keySound">
+    <source src="./sounds/sfx/SFX_KEY.wav" type="audio/wav">
+   </audio>
+    <label id = "txtPruebas">Text box for testing</label>
+
+    <script type="module" src="./src/game.js"></script>
+    
+</body>
+</html>
